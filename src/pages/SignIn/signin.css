@@ -1,0 +1,79 @@
+.container-center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.login-view{
+    background-color: #EAEAEC;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-area{
+    width: 100%;
+    background-color: #181C2E;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-area img{
+    height: 120px;
+    padding: 15px;
+}
+
+form{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+form h1{
+    padding: 10px;
+    color: #181C2E;
+    text-align: center;
+}
+
+form input{
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button{
+    color: #FFFFFF;
+    font-size: 1em;
+    border: none;
+    background-color: #181C2E;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all .2s;
+}
+
+form button:hover{
+    background-color: #272d45;
+}
+
+form p{
+    text-align: center;
+}
+
+form a{
+    text-align: center;
+    color: #181C2E;
+    margin: 2em 0;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+form a:hover{
+    text-decoration: underline;
+}

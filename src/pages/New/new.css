@@ -1,0 +1,18 @@
+.text-area{
+    height: 100px;
+    resize: none;
+}
+
+.form-profile input[type="radio"]{
+    margin: 0 0 1.25em;
+    cursor: pointer;
+}
+
+.form-profile input[type="radio"]:not(:first-child){
+    margin-left: 15px;
+}
+
+.status span{
+    font-size: 1.1em;
+    margin-left: .15em;
+}

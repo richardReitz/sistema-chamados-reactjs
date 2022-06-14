@@ -1,0 +1,90 @@
+.sidebar{
+    width: 200px;
+    height: 100%;
+    background-color: #181c2e;
+    position: fixed;
+    overflow: auto;
+}
+
+.back-image{
+    height: 150px;
+    background-image: url('../../assets/cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-image img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(2px 3px 6px #121212);
+    filter: drop-shadow(2px 3px 6px #121212);
+    object-fit: cover;
+}
+
+.sidebar a{
+    display: block;
+    padding: 15px 10px;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all .3s;
+}
+
+.sidebar a:hover{
+    background-color: #121212;
+    color: #FFF;
+}
+
+.sidebar a svg{
+    margin-right: .5em;
+}
+
+.content{
+    margin-left: 200px;
+    padding: 1px 16px;
+}
+
+@media screen and (max-width: 700px){
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a{
+        float: left;
+    }
+
+    .back-image{
+        display: none;
+    }
+
+    .sidebar a svg{
+        display: none;
+    }
+
+    .content{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .sidebar{
+        float: none;
+        text-align: center;
+    }
+
+    .sidebar a{
+        float: left;
+    }
+
+    .sidebar a svg{
+        display: none;
+    }
+}
